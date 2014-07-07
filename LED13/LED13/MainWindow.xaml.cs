@@ -12,8 +12,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO.Ports;
+ 
+ /* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+/* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
 
-
+/* zo maar wat brol en nog eens 
+ * */
 namespace WpfApplication1
 {
     /// <summary>
@@ -58,8 +62,6 @@ namespace WpfApplication1
             {
                 MessageBox.Show("Error: "+ ex);
             }
-
-       
         }
 
         private void cmb_Ports_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -82,7 +84,6 @@ namespace WpfApplication1
                 btn_Open.Content = "Close Port";
                 this.btn_led_on.IsEnabled = true;
                 toggle1 = false;
-
             }
         }
 
